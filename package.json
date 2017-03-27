@@ -1,0 +1,20 @@
+{
+  "name": "scrapeandmail",
+  "version": "1.0.0",
+  "description": "Scrapes a website and sends that content to a user in an email.",
+  "main": "scrapeAndMail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron White",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "fs-promise": "^2.0.2",
+    "nodemailer": "^3.1.8",
+    "nodemailer-promise": "^1.0.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
